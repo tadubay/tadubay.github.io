@@ -1,12 +1,25 @@
 {
   "vaultName": "webexport",
-  "lastExport": 1711585924215,
-  "pluginVersion": "1.8.0-11b",
-  "validBodyClasses": "publish css-settings-manager theme-light show-inline-title",
+  "lastExport": 1711586478241,
+  "pluginVersion": "1.8.0-1b",
+  "validBodyClasses": "publish theme-light show-inline-title",
   "files": [
-    "content/page list.md",
-    "content/Welcome.md",
     "index.md",
+    "pages.md",
+    "Welcome.md",
+    "lib/styles/theme.css",
+    "lib/scripts/webpage.js",
+    "lib/media/favicon.png",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/snippets.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/supported-plugins.css",
+    "lib/styles/main-styles.css",
+    "lib/scripts/pixi.js",
+    "lib/html/custom-head-content.html",
+    "lib/media/moon.svg",
+    "lib/media/sun.svg",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -22,15 +35,22 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/html/file-tree.html",
-    "lib/scripts/webpage.js",
-    "lib/scripts/minisearch.js",
-    "lib/media/favicon.png",
-    "lib/styles/obsidian.css",
-    "lib/styles/other-plugins.css",
-    "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css"
+    "lib/html/body-classes.html"
   ],
   "mainDependencies": [
+    "lib/styles/theme.css",
+    "lib/scripts/webpage.js",
+    "lib/media/favicon.png",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/snippets.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/supported-plugins.css",
+    "lib/styles/main-styles.css",
+    "lib/scripts/pixi.js",
+    "lib/html/custom-head-content.html",
+    "lib/media/moon.svg",
+    "lib/media/sun.svg",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -46,163 +66,199 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/html/file-tree.html",
-    "lib/scripts/webpage.js",
-    "lib/scripts/minisearch.js",
-    "lib/media/favicon.png",
-    "lib/styles/obsidian.css",
-    "lib/styles/other-plugins.css",
-    "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css"
+    "lib/html/body-classes.html"
   ],
   "fileInfo": {
-    "content/page list.md": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 29,
-      "exportedPath": "content/page-list.html",
-      "dependencies": []
-    },
-    "content/Welcome.md": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 203,
-      "exportedPath": "content/welcome.html",
-      "dependencies": []
-    },
     "index.md": {
-      "modifiedTime": 1711585924215,
+      "modifiedTime": 1711586478241,
       "sourceSize": 56,
       "exportedPath": "index.html",
       "dependencies": []
     },
-    "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 66800,
-      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+    "pages.md": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 29,
+      "exportedPath": "pages.html",
       "dependencies": []
     },
-    "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 104232,
-      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+    "Welcome.md": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 203,
+      "exportedPath": "welcome.html",
       "dependencies": []
     },
-    "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 104332,
-      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 98868,
-      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 106876,
-      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 105804,
-      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 106108,
-      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 111708,
-      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 192740,
-      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 161376,
-      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 191568,
-      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 155288,
-      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 7876,
-      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-      "dependencies": []
-    },
-    "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 317,
-      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
-      "dependencies": []
-    },
-    "lib/html/file-tree.html": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 2230,
-      "exportedPath": "lib/html/file-tree.html",
+    "lib/styles/theme.css": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 1,
+      "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 47282,
+      "modifiedTime": 1711586478241,
+      "sourceSize": 45003,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
-    "lib/scripts/minisearch.js": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 29422,
-      "exportedPath": "lib/scripts/minisearch.js",
-      "dependencies": []
-    },
     "lib/media/favicon.png": {
-      "modifiedTime": 1711585924215,
+      "modifiedTime": 1711586478241,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 37550,
+      "modifiedTime": 1711586478241,
+      "sourceSize": 154160,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1711585924215,
+      "modifiedTime": 1711586478241,
       "sourceSize": 2104,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
+    "lib/styles/snippets.css": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 1,
+      "exportedPath": "lib/styles/snippets.css",
+      "dependencies": []
+    },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 236,
+      "modifiedTime": 1711586478241,
+      "sourceSize": 185,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
+    "lib/styles/supported-plugins.css": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 1,
+      "exportedPath": "lib/styles/supported-plugins.css",
+      "dependencies": []
+    },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1711585924215,
-      "sourceSize": 23130,
+      "modifiedTime": 1711586478241,
+      "sourceSize": 21734,
       "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/html/custom-head-content.html": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 0,
+      "exportedPath": "lib/html/custom-head-content.html",
+      "dependencies": []
+    },
+    "lib/media/moon.svg": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 227,
+      "exportedPath": "lib/media/moon.svg",
+      "dependencies": []
+    },
+    "lib/media/sun.svg": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 353,
+      "exportedPath": "lib/media/sun.svg",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 1545,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/html/body-classes.html": {
+      "modifiedTime": 1711586478241,
+      "sourceSize": 37,
+      "exportedPath": "lib/html/body-classes.html",
       "dependencies": []
     }
   }
